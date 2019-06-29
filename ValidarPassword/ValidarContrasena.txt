@@ -1,0 +1,8 @@
+Programa que se encarga de identificar si una contraseña es valida o no dependiendo de si cumple con las siguientes condiciones:
+
+Longitud de más de 8 caracteres.
+Letras mayúsculas (de la A a la Z) -> Por lo menos uno
+Letras minúsculas (de la a a la z) -> Por lo menos uno
+Números (del 0 al 9) -> Por lo menos uno
+Símbolos no alfanuméricos: ` ~ ! @ # $ % ^ & * ( ) _ + - = { } | [ ] \ : " ; ' < > ? , . / -> Por lo menos uno
+No escribir 2 o más caracteres identicos colocados de forma consecutiva, juntos (*aa,abbZ,993,ñ122b?)

@@ -1,0 +1,26 @@
+
+Información: 
+
+Los estados deben de ir separados por comas.
+
+Para indicar que un estado es inicial o final, tiene que estar representado con una "x" en dicha casilla.
+
+Para indicar que de un estado va a múltiples estados, debe de indicarse que es un conjunto con el uso de "{" y "}".
+
+Debe existir sólo un salto de línea entre la información que metemos de cada estado y no debe de haber ninguna línea vacía al final del archivo de texto.
+
+Siempre deben de existir las transiciones a,b,c.
+
+Los estados usados deberan de empezar siempre con "q".
+
+Los estados sólo podran diferenciarse con un entro después de la q, ejemplo: q1,q2,q3.
+
+Siempre deberá de escribirse la información los estados empezando desde el q0 y de forma consecutiva, ejemplo:
+
+ini,fin,edo
+ x ,  , q0
+   , x , q1
+   ,   , q2
+   , x , qn
+   ,   , qn + 1
+
